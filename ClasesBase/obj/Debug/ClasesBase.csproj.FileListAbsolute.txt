@@ -1,0 +1,5 @@
+C:\Users\Augu-PC\Desktop\augu\LPOO2\lpooII-grupo-06\ClasesBase\bin\Debug\ClasesBase.dll
+C:\Users\Augu-PC\Desktop\augu\LPOO2\lpooII-grupo-06\ClasesBase\bin\Debug\ClasesBase.pdb
+C:\Users\Augu-PC\Desktop\augu\LPOO2\lpooII-grupo-06\ClasesBase\obj\Debug\ClasesBase.dll
+C:\Users\Augu-PC\Desktop\augu\LPOO2\lpooII-grupo-06\ClasesBase\obj\Debug\ClasesBase.pdb
+C:\Users\Augu-PC\Desktop\augu\LPOO2\lpooII-grupo-06\ClasesBase\obj\Debug\ClasesBase.csprojResolveAssemblyReference.cache
