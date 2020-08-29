@@ -2,13 +2,16 @@
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="ClasesBase.Usuario">
     <Position X="0.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
     <TypeIdentifier>
-      <HashCode>AQAAAAEAAAgAAEAIAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AQBAAAEAQAAAAEAAAABAAgAAACCAAAAAAAAAAAAAACA=</HashCode>
       <FileName>Usuario.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ClasesBase.Rol">
-    <Position X="0.5" Y="2.75" Width="1.5" />
+    <Position X="0.5" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAACAAAAAAAAAAAACAAAAAAAAAAAAAIACA=</HashCode>
       <FileName>Rol.cs</FileName>
@@ -38,7 +41,7 @@
   <Class Name="ClasesBase.Butaca">
     <Position X="6.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAgAAAAAACAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAIAAAAgAAAAAACAAAAAAAAgAAAAAgCAAAAAAAAAAA=</HashCode>
       <FileName>Butaca.cs</FileName>
     </TypeIdentifier>
   </Class>

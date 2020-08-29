@@ -3,3 +3,8 @@ C:\Users\Augu-PC\Desktop\augu\LPOO2\lpooII-grupo-06\ClasesBase\bin\Debug\ClasesB
 C:\Users\Augu-PC\Desktop\augu\LPOO2\lpooII-grupo-06\ClasesBase\obj\Debug\ClasesBase.dll
 C:\Users\Augu-PC\Desktop\augu\LPOO2\lpooII-grupo-06\ClasesBase\obj\Debug\ClasesBase.pdb
 C:\Users\Augu-PC\Desktop\augu\LPOO2\lpooII-grupo-06\ClasesBase\obj\Debug\ClasesBase.csprojResolveAssemblyReference.cache
+C:\Users\fabian19\Documents\VisualStudioCodeProjects\LPOII_GRUPO6\ClasesBase\bin\Debug\ClasesBase.dll
+C:\Users\fabian19\Documents\VisualStudioCodeProjects\LPOII_GRUPO6\ClasesBase\bin\Debug\ClasesBase.pdb
+C:\Users\fabian19\Documents\VisualStudioCodeProjects\LPOII_GRUPO6\ClasesBase\obj\Debug\ClasesBase.csprojResolveAssemblyReference.cache
+C:\Users\fabian19\Documents\VisualStudioCodeProjects\LPOII_GRUPO6\ClasesBase\obj\Debug\ClasesBase.dll
+C:\Users\fabian19\Documents\VisualStudioCodeProjects\LPOII_GRUPO6\ClasesBase\obj\Debug\ClasesBase.pdb

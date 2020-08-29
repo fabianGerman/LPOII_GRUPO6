@@ -1,8 +1,17 @@
 ﻿<Window x:Class="Vistas.winMain"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="winMain" Height="300" Width="300">
-    <Grid>
-        
+        Title="winMain" Height="285" Width="478" Loaded="Window_Loaded">
+    <Grid Width="365">
+        <DockPanel>
+            <Menu DockPanel.Dock="Top" IsMainMenu="True" HorizontalContentAlignment="Left" Background="Transparent">
+                <MenuItem Header="Usuarios" HorizontalContentAlignment="Left" Click="MenuItem_Click" Name="abmUsuario"></MenuItem>
+                <MenuItem Header="Peliculas" HorizontalContentAlignment="Left" Click="MenuItem_Click_1" Name="abmPeliculas"></MenuItem>
+                <MenuItem Header="Butacas" HorizontalContentAlignment="Left" Click="MenuItem_Click_2" Name="abmButacas"></MenuItem>
+                <MenuItem Header="Proyecciones" HorizontalContentAlignment="Left" Click="MenuItem_Click_3" Name="abmProyeccion"></MenuItem>
+                <MenuItem Header="Clientes" HorizontalContentAlignment="Left" Click="MenuItem_Click_4" Name="abmCliente"></MenuItem>
+                <MenuItem Header="Tickets" HorizontalContentAlignment="Left" Click="MenuItem_Click_5" Name="abmTicket"></MenuItem>
+            </Menu>
+        </DockPanel>
     </Grid>
 </Window>

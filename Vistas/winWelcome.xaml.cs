@@ -19,37 +19,63 @@ namespace Vistas
     /// </summary>
     public partial class winWelcome : Window
     {
+        private List<Usuario> listaUsuarios = new List<Usuario>();
         public winWelcome()
         {
             InitializeComponent();
         }
-
+         
+        /*EVENTOS PRINCIPALES*/
         private void btnIngreso_Click(object sender, RoutedEventArgs e)
         {
-            
-            Usuario usuario1 = new Usuario("admin", "123");
-            Usuario usuario2 = new Usuario("vendedor", "123");
-
-            if (txtUsuario.Text == usuario1.Usu_NombreUsuario && txtContra.Text == usuario1.Usu_Contra)
+            winMain oWinMain = new winMain();
+            CargarLista();
+            if (controlarIngreso(txtUsuario.Text, txtContra.Text) == true)
             {
-                MessageBox.Show("Bienvenido, "+ txtUsuario.Text);
-                winMain oWinMain = new winMain();
-                oWinMain.Show();
+                MessageBox.Show("Debe completar los campos");
+                limpiar();
             }
             else
             {
-                if (txtUsuario.Text == usuario2.Usu_NombreUsuario && txtContra.Text == usuario2.Usu_Contra)
+                if (validarUsuario(txtUsuario.Text, txtContra.Text) == null)
                 {
-                    MessageBox.Show("Bienvenido, " + txtUsuario.Text);
-                    winMain oWinMain = new winMain();
-                    oWinMain.Show();
+                    MessageBox.Show("Usuario no Registrado");
+                    limpiar();
                 }
                 else
                 {
-                    MessageBox.Show("Usuario no encontrado");
+                    
+                    oWinMain.UsuarioLogeado = validarUsuario(txtUsuario.Text, txtContra.Text);
+                    MessageBox.Show("Bienvenido");
+                    oWinMain.Show();
                 }
             }
-                
+               
+        }
+
+        /*FUNCIONES INTERNAS*/
+        private void CargarLista()
+        {
+            Usuario usuario1 = new Usuario(1, "admin", "123", "asdfg", "administrador");
+            Usuario usuario2 = new Usuario(2, "vend", "1234", "asdfg", "vendedor");
+            this.listaUsuarios.Add(usuario1);
+            this.listaUsuarios.Add(usuario2);
+        }
+
+        private Usuario validarUsuario(String us, string pass)
+        {
+            return listaUsuarios.Find(x => x.Usu_NombreUsuario.Equals(us) || x.Usu_Password.Equals(pass)); //controlar si esta bien
+        }
+
+        private Boolean controlarIngreso(string us, string pass)
+        {
+            return us.Equals("") || pass.Equals("");
+        }
+
+        private void limpiar()
+        {
+            txtUsuario.Text = "";
+            txtContra.Text = "";
         }
     }
 }
