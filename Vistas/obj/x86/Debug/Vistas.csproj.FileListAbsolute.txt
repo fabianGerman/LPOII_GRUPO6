@@ -64,3 +64,5 @@ C:\Users\Cris\Documents\LpooII\LPOII_GRUPO6\Vistas\obj\x86\Debug\Vistas_MarkupCo
 C:\Users\Cris\Documents\LpooII\LPOII_GRUPO6\Vistas\obj\x86\Debug\Vistas.g.resources
 C:\Users\Cris\Documents\LpooII\LPOII_GRUPO6\Vistas\obj\x86\Debug\Vistas.Properties.Resources.resources
 C:\Users\Cris\Documents\LpooII\LPOII_GRUPO6\Vistas\obj\x86\Debug\Vistas.csproj.GenerateResource.Cache
+C:\Users\Cris\Documents\LpooII\LPOII_GRUPO6\Vistas\obj\x86\Debug\winCliente.baml
+C:\Users\Cris\Documents\LpooII\LPOII_GRUPO6\Vistas\obj\x86\Debug\winCliente.g.cs

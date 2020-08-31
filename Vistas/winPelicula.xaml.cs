@@ -10,6 +10,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using ClasesBase;
 
 namespace Vistas
 {
@@ -18,6 +19,10 @@ namespace Vistas
     /// </summary>
     public partial class winPelicula : Window
     {
+        int codigo = 0;
+        List<Pelicula> peliculas = new List<Pelicula>();
+        Pelicula pelicula = new Pelicula();
+
         public winPelicula()
         {
             InitializeComponent();
@@ -27,12 +32,14 @@ namespace Vistas
         {
             if (txtClase.Text != "" && txtDuracion.Text != "" && txtGenero.Text != "" && txtTitulo.Text != "")
             {
-                MessageBox.Show("Pelicula Agregada:  " + "Titulo :" + txtTitulo.Text + ", Genero: " + txtGenero.Text + ", Clase: " + txtClase.Text);
+                MessageBox.Show("Pelicula Agregada", "Registro", MessageBoxButton.OK);
+                codigo++;
+                agregar();
                 limpiar();
             }
             else
             {
-                MessageBox.Show("Debe completar todos los campos...");
+                MessageBox.Show("Debe completar todos los campos...","Error");
             }
         }
 
@@ -46,6 +53,18 @@ namespace Vistas
             txtDuracion.Text = "";
             txtGenero.Text = "";
             txtTitulo.Text = "";
+        }
+
+        private void agregar()
+        {
+            pelicula = new Pelicula(Convert.ToString(codigo), txtTitulo.Text, txtDuracion.Text, txtGenero.Text, txtClase.Text);
+            this.peliculas.Add(pelicula);
+            cargarGrilla();
+        }
+
+        private void cargarGrilla()
+        {
+            dgvPeliculas.ItemsSource = this.peliculas;
         }
     }
 }

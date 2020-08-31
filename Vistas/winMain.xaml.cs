@@ -61,7 +61,8 @@ namespace Vistas
 
         private void MenuItem_Click_4(object sender, RoutedEventArgs e)
         {
-
+            winCliente cliente = new winCliente();
+            cliente.Show();
         }
 
         private void MenuItem_Click_5(object sender, RoutedEventArgs e)

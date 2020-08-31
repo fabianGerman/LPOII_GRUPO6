@@ -8,34 +8,46 @@ namespace ClasesBase
     public class Cliente
     {
         private int cli_DNI;
+        private string cli_Nombre;
+        private string cli_Apellido;
+        private string cli_Telefono;
+        private string cli_Email;
+
+        public Cliente(){}
+
+        public Cliente(int dni, string nombre, string apellido, string telefono, string email)
+        {
+            this.cli_DNI = dni;
+            this.cli_Nombre = nombre;
+            this.cli_Apellido = apellido;
+            this.cli_Telefono = telefono;
+            this.cli_Email = email;
+        }
 
         public int Cli_DNI
         {
             get { return cli_DNI; }
             set { cli_DNI = value; }
         }
-        private string cli_Nombre;
 
         public string Cli_Nombre
         {
             get { return cli_Nombre; }
             set { cli_Nombre = value; }
         }
-        private string cli_Apellido;
+
 
         public string Cli_Apellido
         {
             get { return cli_Apellido; }
             set { cli_Apellido = value; }
         }
-        private string cli_Telefono;
 
         public string Cli_Telefono
         {
             get { return cli_Telefono; }
             set { cli_Telefono = value; }
         }
-        private string cli_Email;
 
         public string Cli_Email
         {

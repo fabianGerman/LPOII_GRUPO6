@@ -1,0 +1,20 @@
+﻿<Window x:Class="Vistas.winCliente"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="winCliente" Height="360" Width="686">
+    <Grid>
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="164,50,0,0" Name="txtDni" VerticalAlignment="Top" Width="150" />
+        <Label Content="DNI" Height="28" HorizontalAlignment="Left" Margin="46,46,0,0" Name="lblDni" VerticalAlignment="Top" />
+        <Label Content="Nombre" Height="28" HorizontalAlignment="Left" Margin="46,89,0,0" Name="lblNombre" VerticalAlignment="Top" />
+        <Label Content="Apellido" Height="28" HorizontalAlignment="Left" Margin="46,132,0,0" Name="lblApellido" VerticalAlignment="Top" />
+        <Label Content="Email" Height="28" HorizontalAlignment="Left" Margin="46,175,0,0" Name="lblEmail" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="164,93,0,0" Name="txtNombre" VerticalAlignment="Top" Width="150" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="164,136,0,0" Name="txtApellido" VerticalAlignment="Top" Width="150" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="164,179,0,0" Name="txtEmail" VerticalAlignment="Top" Width="150" />
+        <Button Content="Agregar" Height="26" HorizontalAlignment="Left" Margin="46,283,0,0" Name="btnAgregar" VerticalAlignment="Top" Width="105" Click="btnAgregar_Click" />
+        <Button Content="Cancelar" Height="26" HorizontalAlignment="Left" Margin="209,283,0,0" Name="btnCancelar" VerticalAlignment="Top" Width="105" Click="btnCancelar_Click" />
+        <Label Content="Telefono" Height="28" HorizontalAlignment="Left" Margin="46,220,0,0" Name="label1" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="164,225,0,0" Name="txtTelefono" VerticalAlignment="Top" Width="150" />
+        <DataGrid AutoGenerateColumns="True" Height="204" HorizontalAlignment="Left" Margin="373,50,0,0" Name="dgvCliente" VerticalAlignment="Top" Width="265" />
+    </Grid>
+</Window>
