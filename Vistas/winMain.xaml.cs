@@ -45,7 +45,8 @@ namespace Vistas
 
         private void MenuItem_Click_1(object sender, RoutedEventArgs e)
         {
-
+            winPelicula pelicula = new winPelicula();
+            pelicula.Show();
         }
 
         private void MenuItem_Click_2(object sender, RoutedEventArgs e)

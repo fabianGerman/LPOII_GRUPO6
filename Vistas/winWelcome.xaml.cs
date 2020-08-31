@@ -48,6 +48,7 @@ namespace Vistas
                     oWinMain.UsuarioLogeado = validarUsuario(txtUsuario.Text, txtContra.Text);
                     MessageBox.Show("Bienvenido");
                     oWinMain.Show();
+                    limpiar();
                 }
             }
                

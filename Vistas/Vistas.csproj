@@ -58,6 +58,9 @@
     <Compile Include="winMain.xaml.cs">
       <DependentUpon>winMain.xaml</DependentUpon>
     </Compile>
+    <Compile Include="winPelicula.xaml.cs">
+      <DependentUpon>winPelicula.xaml</DependentUpon>
+    </Compile>
     <Compile Include="winWelcome.xaml.cs">
       <DependentUpon>winWelcome.xaml</DependentUpon>
     </Compile>
@@ -66,6 +69,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="winMain.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="winPelicula.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
