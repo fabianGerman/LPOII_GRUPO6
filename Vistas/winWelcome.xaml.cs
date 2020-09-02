@@ -30,22 +30,22 @@ namespace Vistas
         {
             winMain oWinMain = new winMain();
             CargarLista();
-            if (controlarIngreso(txtUsuario.Text, txtContra.Text) == true)
+            if (controlarIngreso(txtUsuario.Text, txtContra.Password) == true)
             {
                 MessageBox.Show("Debe completar los campos");
                 limpiar();
             }
             else
             {
-                if (validarUsuario(txtUsuario.Text, txtContra.Text) == null)
+                if (validarUsuario(txtUsuario.Text, txtContra.Password) == null)
                 {
                     MessageBox.Show("Usuario no Registrado");
                     limpiar();
                 }
                 else
                 {
-                    
-                    oWinMain.UsuarioLogeado = validarUsuario(txtUsuario.Text, txtContra.Text);
+
+                    oWinMain.UsuarioLogeado = validarUsuario(txtUsuario.Text, txtContra.Password);
                     MessageBox.Show("Bienvenido");
                     oWinMain.Show();
                 }
@@ -75,7 +75,7 @@ namespace Vistas
         private void limpiar()
         {
             txtUsuario.Text = "";
-            txtContra.Text = "";
+            txtContra.Password = "";
         }
     }
 }
