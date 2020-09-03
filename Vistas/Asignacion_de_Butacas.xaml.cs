@@ -22,5 +22,20 @@ namespace Vistas
         {
             InitializeComponent();
         }
+
+        private void button9_Click(object sender, RoutedEventArgs e)
+        {
+            button9.Background = Brushes.Green;
+        }
+
+        private void button10_Click(object sender, RoutedEventArgs e)
+        {
+            button10.Background = Brushes.Green;
+        }
+
+        private void button11_Click(object sender, RoutedEventArgs e)
+        {
+            button11.Background = Brushes.Green;
+        }
     }
 }

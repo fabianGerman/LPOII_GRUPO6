@@ -51,7 +51,7 @@ namespace Vistas
         private void MenuItem_Click_2(object sender, RoutedEventArgs e)
         {
             Asignacion_de_Butacas ventana = new Asignacion_de_Butacas();
-            ventana.Show();
+            ventana.ShowDialog();
         }
 
         private void MenuItem_Click_3(object sender, RoutedEventArgs e)

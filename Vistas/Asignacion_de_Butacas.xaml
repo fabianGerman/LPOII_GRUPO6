@@ -4,26 +4,26 @@
         Title="Asignacion_de_Butacas" Height="497" Width="459">
     <Grid Width="452">
         <WrapPanel Height="349" HorizontalAlignment="Left" Margin="118,80,0,0" Name="wrapPanel1" VerticalAlignment="Top" Width="322">
-            <Button Content="1" Height="68" Name="button1" Width="75" />
-            <Button Content="2" Height="66" Name="button2" Width="75" />
-            <Button Content="3" Height="66" Name="button3" Width="75" />
-            <Button Content="4" Height="68" Name="button4" Width="75" />
-            <Button Content="5" Height="66" Name="button5" Width="75" />
-            <Button Content="6" Height="66" Name="button6" Width="75" />
-            <Button Content="7" Height="68" Name="button7" Width="75" />
-            <Button Content="8" Height="66" Name="button8" Width="75" />
-            <Button Content="9" Height="66" Name="button9" Width="75" />
-            <Button Content="10" Height="68" Name="button10" Width="75" />
-            <Button Content="11" Height="66" Name="button11" Width="75" />
-            <Button Content="12" Height="66" Name="button12" Width="75" />
-            <Button Content="13" Height="66" Name="button13" Width="75" />
-            <Button Content="14" Height="68" Name="button14" Width="75" />
-            <Button Content="15" Height="66" Name="button15" Width="75" />
-            <Button Content="16" Height="66" Name="button16" Width="75" />
-            <Button Content="17" Height="66" Name="button17" Width="75" />
-            <Button Content="18" Height="68" Name="button18" Width="75" />
-            <Button Content="19" Height="66" Name="button19" Width="75" />
-            <Button Content="20" Height="66" Name="button20" Width="75" />
+            <Button Content="1" Height="68" Name="button1" Width="75" TextElement.Foreground="White"/>
+            <Button Content="2" Height="66" Name="button2" Width="75" TextElement.Foreground="White"/>
+            <Button Content="3" Height="66" Name="button3" Width="75" TextElement.Foreground="White"/>
+            <Button Content="4" Height="68" Name="button4" Width="75" TextElement.Foreground="White"/>
+            <Button Content="1" Height="66" Name="button5" Width="75" TextElement.Foreground="White"/>
+            <Button Content="2" Height="66" Name="button6" Width="75" TextElement.Foreground="White"/>
+            <Button Content="3" Height="68" Name="button7" Width="75" Background="Red" TextElement.Foreground="White"/>
+            <Button Content="4" Height="66" Name="button8" Width="75" TextElement.Foreground="White"/>
+            <Button Content="1" Height="66" Name="button9" Width="75" TextElement.Foreground="White" Click="button9_Click" />
+            <Button Content="2" Height="68" Name="button10" Width="75" TextElement.Foreground="White" Click="button10_Click" />
+            <Button Content="3" Height="66" Name="button11" Width="75" TextElement.Foreground="White" Click="button11_Click" />
+            <Button Content="4" Height="66" Name="button12" Width="75" TextElement.Foreground="White"/>
+            <Button Content="1" Height="66" Name="button13" Width="75" TextElement.Foreground="White"/>
+            <Button Content="2" Height="68" Name="button14" Width="75" TextElement.Foreground="White"/>
+            <Button Content="3" Height="66" Name="button15" Width="75" TextElement.Foreground="White"/>
+            <Button Content="4" Height="66" Name="button16" Width="75" TextElement.Foreground="White"/>
+            <Button Content="1" Height="66" Name="button17" Width="75" TextElement.Foreground="White"/>
+            <Button Content="2" Height="68" Name="button18" Width="75" TextElement.Foreground="White"/>
+            <Button Content="3" Height="66" Name="button19" Width="75" TextElement.Foreground="White"/>
+            <Button Content="4" Height="66" Name="button20" Width="75" TextElement.Foreground="White" />
         </WrapPanel>
         <Label Content="PANTALLA" Height="70" HorizontalAlignment="Left" Margin="118,12,0,0" Name="lblTitulo" VerticalAlignment="Top" Width="300" Background="Gray" TextElement.FontSize="20" TextElement.Foreground="White" />
         <Label Content="A" Height="65" HorizontalAlignment="Left" Margin="44,82,0,0" Name="label1" VerticalAlignment="Top" Width="76" />
